@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": 2,
+  "catalogVersion": 3,
   "models": [
     {
       "id": "qwen3-0.6b-q4km",
       "title": "Qwen3 0.6B · Ultra fast",
       "description": "Smallest download and fastest startup. Best for lightweight chat and simple tasks.",
       "fileName": "Qwen3-0.6B-Q4_K_M.gguf",
-      "url": "https://huggingface.co/Qwen/Qwen3-0.6B-GGUF/resolve/main/Qwen3-0.6B-Q4_K_M.gguf?download=true",
+      "url": "https://huggingface.co/Qwen/Qwen3-0.6B-GGUF/resolve/1208e45d782fe18602c5eaf10e5758d5b0f24c03/Qwen3-0.6B-Q4_K_M.gguf",
       "sizeBytes": 397000000,
       "minRamGb": 2.5,
       "recommendedRamGb": 3.0,
