@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "models": [
+    {
+      "id": "qwen3-vl-2b-q4",
+      "title": "Qwen Vision · Balanced",
+      "description": "Local semantic image understanding for photos, screenshots and documents.",
+      "llmFileName": "Qwen3VL-2B-Instruct-Q4_K_M.gguf",
+      "llmUrl": "https://huggingface.co/Qwen/Qwen3-VL-2B-Instruct-GGUF/resolve/d38d39f5972e27cd58023f9b1e9f994b0c85ca47/Qwen3VL-2B-Instruct-Q4_K_M.gguf",
+      "llmSizeBytes": 1110000000,
+      "llmSha256": "089d75c52f4b7ffc56ba998ffc50aae89fcafc755f9e7208aacca281dca6c2ae",
+      "mmprojFileName": "mmproj-Qwen3VL-2B-Instruct-Q8_0.gguf",
+      "mmprojUrl": "https://huggingface.co/Qwen/Qwen3-VL-2B-Instruct-GGUF/resolve/d38d39f5972e27cd58023f9b1e9f994b0c85ca47/mmproj-Qwen3VL-2B-Instruct-Q8_0.gguf",
+      "mmprojSizeBytes": 445000000,
+      "mmprojSha256": "f9a68fabba69c3b81e153367b2c7521030b0fa8bb0de400c9599c8e6725f9c82",
+      "minRamGb": 6.0,
+      "recommendedRamGb": 8.0,
+      "contextSize": 4096,
+      "maxImageTokens": 768
+    }
+  ]
+}
