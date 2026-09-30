@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 2,
+  "models": [
+    {
+      "id": "qwen3-0.6b-q4km",
+      "title": "Qwen3 0.6B · Ultra fast",
+      "description": "Smallest download and fastest startup. Best for lightweight chat and simple tasks.",
+      "fileName": "Qwen3-0.6B-Q4_K_M.gguf",
+      "url": "https://huggingface.co/Qwen/Qwen3-0.6B-GGUF/resolve/main/Qwen3-0.6B-Q4_K_M.gguf?download=true",
+      "sizeBytes": 397000000,
+      "minRamGb": 2.5,
+      "recommendedRamGb": 3.0,
+      "contextSize": 2048,
+      "sha256": "b0638f08417a2d3c8652760462eb5407c6e30173cf9608ad0820757a281eea0e"
+    },
+    {
+      "id": "qwen3-0.6b-q8",
+      "title": "Qwen3 0.6B · Fast",
+      "description": "Small option with higher precision. Good for rewriting, simple Q&A and short chats.",
+      "fileName": "Qwen3-0.6B-Q8_0.gguf",
+      "url": "https://huggingface.co/Qwen/Qwen3-0.6B-GGUF/resolve/main/Qwen3-0.6B-Q8_0.gguf?download=true",
+      "sizeBytes": 639000000,
+      "minRamGb": 3.0,
+      "recommendedRamGb": 4.0,
+      "contextSize": 2048,
+      "sha256": "9465e63a22add5354d9bb4b99e90117043c7124007664907259bd16d043bb031"
+    },
+    {
+      "id": "qwen3-1.7b-q8",
+      "title": "Qwen3 1.7B · Balanced",
+      "description": "Better chat quality while still practical on modern phones.",
+      "fileName": "Qwen3-1.7B-Q8_0.gguf",
+      "url": "https://huggingface.co/Qwen/Qwen3-1.7B-GGUF/resolve/main/Qwen3-1.7B-Q8_0.gguf?download=true",
+      "sizeBytes": 1800000000,
+      "minRamGb": 5.0,
+      "recommendedRamGb": 6.0,
+      "contextSize": 2048,
+      "sha256": "061b54daade076b5d3362dac252678d17da8c68f07560be70818cace6590cb1a"
+    },
+    {
+      "id": "qwen3-4b-q4km",
+      "title": "Qwen3 4B · Best quality",
+      "description": "Best option here, but heavier and slower. Recommended for 8 GB+ RAM.",
+      "fileName": "Qwen3-4B-Q4_K_M.gguf",
+      "url": "https://huggingface.co/Qwen/Qwen3-4B-GGUF/resolve/main/Qwen3-4B-Q4_K_M.gguf?download=true",
+      "sizeBytes": 2500000000,
+      "minRamGb": 7.0,
+      "recommendedRamGb": 8.0,
+      "contextSize": 3072,
+      "sha256": "7485fe6f11af29433bc51cab58009521f205840f5b4ae3a32fa7f92e8534fdf5"
+    }
+  ]
+}
