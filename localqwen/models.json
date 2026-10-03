@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": 3,
+  "catalogVersion": 4,
   "models": [
     {
       "id": "qwen3-0.6b-q4km",
@@ -29,7 +29,7 @@
     {
       "id": "qwen3-1.7b-q8",
       "title": "Qwen3 1.7B · Balanced",
-      "description": "Better chat quality while still practical on modern phones.",
+      "description": "Better chat quality while still practical on modern phones. Q8_0 is supported by the Adreno OpenCL backend.",
       "fileName": "Qwen3-1.7B-Q8_0.gguf",
       "url": "https://huggingface.co/Qwen/Qwen3-1.7B-GGUF/resolve/main/Qwen3-1.7B-Q8_0.gguf?download=true",
       "sizeBytes": 1800000000,
@@ -39,9 +39,21 @@
       "sha256": "061b54daade076b5d3362dac252678d17da8c68f07560be70818cace6590cb1a"
     },
     {
+      "id": "qwen3-4b-q4-gpu",
+      "title": "Qwen3 4B · GPU optimized",
+      "description": "Q4_0 build for Qualcomm Adreno/OpenCL. Use this 4B variant for GPU acceleration on Snapdragon devices.",
+      "fileName": "Qwen3-4B-Q4_0.gguf",
+      "url": "https://huggingface.co/unsloth/Qwen3-4B-GGUF/resolve/511c37ded41841845153129929226b7300e60758/Qwen3-4B-Q4_0.gguf",
+      "sizeBytes": 2380000000,
+      "minRamGb": 7.0,
+      "recommendedRamGb": 8.0,
+      "contextSize": 3072,
+      "sha256": "bd3ca6c0af689d5c396b8a7c7ac121fca58a687cb8b0e71f01e2611ac9358903"
+    },
+    {
       "id": "qwen3-4b-q4km",
-      "title": "Qwen3 4B · Best quality",
-      "description": "Best option here, but heavier and slower. Recommended for 8 GB+ RAM.",
+      "title": "Qwen3 4B · Best quality (CPU)",
+      "description": "Q4_K_M build with slightly better quality. On Adreno 750 this quantization has crashed during OpenCL compute; prefer the GPU optimized Q4_0 variant for GPU mode.",
       "fileName": "Qwen3-4B-Q4_K_M.gguf",
       "url": "https://huggingface.co/Qwen/Qwen3-4B-GGUF/resolve/main/Qwen3-4B-Q4_K_M.gguf?download=true",
       "sizeBytes": 2500000000,
