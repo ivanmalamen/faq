@@ -1,10 +1,10 @@
 {
-  "schemaVersion": 2,
-  "catalogVersion": 5,
+  "schemaVersion": 3,
+  "catalogVersion": 7,
   "models": [
     {
       "id": "qwen3-0.6b-q4km",
-      "title": "Qwen3 0.6B \u00b7 Ultra fast",
+      "title": "Qwen3 0.6B · Ultra fast",
       "description": "Smallest download and fastest startup. Best for lightweight chat and simple tasks.",
       "fileName": "Qwen3-0.6B-Q4_K_M.gguf",
       "url": "https://huggingface.co/Qwen/Qwen3-0.6B-GGUF/resolve/1208e45d782fe18602c5eaf10e5758d5b0f24c03/Qwen3-0.6B-Q4_K_M.gguf",
@@ -18,12 +18,18 @@
       "version": "3.0",
       "quantization": "Q4_K_M",
       "catalogRole": "Ultra Fast",
-      "capabilities": ["text", "reasoning"],
-      "license": "apache-2.0"
+      "capabilities": [
+        "text",
+        "reasoning"
+      ],
+      "license": "apache-2.0",
+      "validatedBackends": [
+        "cpu"
+      ]
     },
     {
       "id": "qwen3-0.6b-q8",
-      "title": "Qwen3 0.6B \u00b7 Fast",
+      "title": "Qwen3 0.6B · Fast",
       "description": "Small option with higher precision. Good for rewriting, simple Q&A and short chats.",
       "fileName": "Qwen3-0.6B-Q8_0.gguf",
       "url": "https://huggingface.co/Qwen/Qwen3-0.6B-GGUF/resolve/main/Qwen3-0.6B-Q8_0.gguf?download=true",
@@ -37,12 +43,18 @@
       "version": "3.0",
       "quantization": "Q8_0",
       "catalogRole": "Fast",
-      "capabilities": ["text", "reasoning"],
-      "license": "apache-2.0"
+      "capabilities": [
+        "text",
+        "reasoning"
+      ],
+      "license": "apache-2.0",
+      "validatedBackends": [
+        "cpu"
+      ]
     },
     {
       "id": "qwen3-1.7b-q8",
-      "title": "Qwen3 1.7B \u00b7 Balanced",
+      "title": "Qwen3 1.7B · Balanced",
       "description": "Better chat quality while still practical on modern phones. Q8_0 is supported by the Adreno OpenCL backend.",
       "fileName": "Qwen3-1.7B-Q8_0.gguf",
       "url": "https://huggingface.co/Qwen/Qwen3-1.7B-GGUF/resolve/main/Qwen3-1.7B-Q8_0.gguf?download=true",
@@ -56,12 +68,18 @@
       "version": "3.0",
       "quantization": "Q8_0",
       "catalogRole": "Balanced",
-      "capabilities": ["text", "reasoning"],
-      "license": "apache-2.0"
+      "capabilities": [
+        "text",
+        "reasoning"
+      ],
+      "license": "apache-2.0",
+      "validatedBackends": [
+        "cpu"
+      ]
     },
     {
       "id": "qwen3-4b-q4-gpu",
-      "title": "Qwen3 4B \u00b7 GPU optimized",
+      "title": "Qwen3 4B · GPU optimized",
       "description": "Q4_0 build for Qualcomm Adreno/OpenCL. Use this 4B variant for GPU acceleration on Snapdragon devices.",
       "fileName": "Qwen3-4B-Q4_0.gguf",
       "url": "https://huggingface.co/unsloth/Qwen3-4B-GGUF/resolve/511c37ded41841845153129929226b7300e60758/Qwen3-4B-Q4_0.gguf",
@@ -75,13 +93,20 @@
       "version": "3.0",
       "quantization": "Q4_0",
       "catalogRole": "Smart",
-      "capabilities": ["text", "reasoning"],
+      "capabilities": [
+        "text",
+        "reasoning"
+      ],
       "license": "apache-2.0",
-      "successorId": "qwen35-4b-q4km"
+      "successorId": "qwen35-4b-q4km",
+      "validatedBackends": [
+        "cpu",
+        "opencl"
+      ]
     },
     {
       "id": "qwen3-4b-q4km",
-      "title": "Qwen3 4B \u00b7 Best quality (CPU)",
+      "title": "Qwen3 4B · Best quality (CPU)",
       "description": "Q4_K_M build with slightly better quality. Prefer Q4_0 on Adreno if OpenCL stability matters.",
       "fileName": "Qwen3-4B-Q4_K_M.gguf",
       "url": "https://huggingface.co/Qwen/Qwen3-4B-GGUF/resolve/main/Qwen3-4B-Q4_K_M.gguf?download=true",
@@ -95,13 +120,19 @@
       "version": "3.0",
       "quantization": "Q4_K_M",
       "catalogRole": "Smart",
-      "capabilities": ["text", "reasoning"],
+      "capabilities": [
+        "text",
+        "reasoning"
+      ],
       "license": "apache-2.0",
-      "successorId": "qwen35-4b-q4km"
+      "successorId": "qwen35-4b-q4km",
+      "validatedBackends": [
+        "cpu"
+      ]
     },
     {
       "id": "smollm3-3b-q4km",
-      "title": "SmolLM3 3B \u00b7 Fast",
+      "title": "SmolLM3 3B · Fast",
       "description": "Compact Apache-2.0 model from Hugging Face with strong lightweight chat and reasoning for its size.",
       "fileName": "SmolLM3-Q4_K_M.gguf",
       "url": "https://huggingface.co/ggml-org/SmolLM3-3B-GGUF/resolve/main/SmolLM3-Q4_K_M.gguf",
@@ -115,12 +146,18 @@
       "version": "3.0",
       "quantization": "Q4_K_M",
       "catalogRole": "Fast",
-      "capabilities": ["text", "reasoning"],
-      "license": "apache-2.0"
+      "capabilities": [
+        "text",
+        "reasoning"
+      ],
+      "license": "apache-2.0",
+      "validatedBackends": [
+        "cpu"
+      ]
     },
     {
       "id": "ministral3-3b-instruct-q4km",
-      "title": "Ministral 3 3B \u00b7 Balanced",
+      "title": "Ministral 3 3B · Balanced",
       "description": "Edge-focused Mistral model. Strong general chat and instruction following at a compact 2.15 GB download.",
       "fileName": "Ministral-3-3B-Instruct-2512-Q4_K_M.gguf",
       "url": "https://huggingface.co/mistralai/Ministral-3-3B-Instruct-2512-GGUF/resolve/main/Ministral-3-3B-Instruct-2512-Q4_K_M.gguf",
@@ -134,12 +171,17 @@
       "version": "3.0-2512",
       "quantization": "Q4_K_M",
       "catalogRole": "Balanced",
-      "capabilities": ["text"],
-      "license": "apache-2.0"
+      "capabilities": [
+        "text"
+      ],
+      "license": "apache-2.0",
+      "validatedBackends": [
+        "cpu"
+      ]
     },
     {
       "id": "phi4-mini-q4km",
-      "title": "Phi-4 Mini 3.8B \u00b7 Smart",
+      "title": "Phi-4 Mini 3.8B · Smart",
       "description": "Microsoft Phi-4 Mini text model. A strong alternative for instructions, logic and code.",
       "fileName": "Phi-4-mini-instruct-Q4_K_M.gguf",
       "url": "https://huggingface.co/lmstudio-community/Phi-4-mini-instruct-GGUF/resolve/main/Phi-4-mini-instruct-Q4_K_M.gguf",
@@ -153,12 +195,17 @@
       "version": "4.0",
       "quantization": "Q4_K_M",
       "catalogRole": "Smart",
-      "capabilities": ["text"],
-      "license": "mit"
+      "capabilities": [
+        "text"
+      ],
+      "license": "mit",
+      "validatedBackends": [
+        "cpu"
+      ]
     },
     {
       "id": "qwen35-4b-q4km",
-      "title": "Qwen3.5 4B \u00b7 Smart",
+      "title": "Qwen3.5 4B · Smart",
       "description": "Newer Qwen generation with stronger general reasoning in the same mobile-friendly size class. Text GGUF in this catalog.",
       "fileName": "Qwen3.5-4B-Q4_K_M.gguf",
       "url": "https://huggingface.co/lmstudio-community/Qwen3.5-4B-GGUF/resolve/main/Qwen3.5-4B-Q4_K_M.gguf",
@@ -172,12 +219,47 @@
       "version": "3.5",
       "quantization": "Q4_K_M",
       "catalogRole": "Smart",
-      "capabilities": ["text", "reasoning"],
-      "license": "apache-2.0"
+      "capabilities": [
+        "text",
+        "reasoning"
+      ],
+      "license": "apache-2.0",
+      "validatedBackends": [
+        "cpu"
+      ]
+    },
+    {
+      "id": "qwen35-4b-q4-gpu-experimental",
+      "title": "Qwen3.5 4B · GPU experimental",
+      "description": "Experimental Q4_0 build for Adreno/OpenCL testing. Auto and startup stay on CPU; choose GPU explicitly to test acceleration.",
+      "fileName": "Qwen3.5-4B-Q4_0.gguf",
+      "url": "https://huggingface.co/unsloth/Qwen3.5-4B-GGUF/resolve/main/Qwen3.5-4B-Q4_0.gguf",
+      "sizeBytes": 2580000000,
+      "minRamGb": 7.0,
+      "recommendedRamGb": 8.0,
+      "contextSize": 4096,
+      "sha256": "298fcb5fe7a77ccc79745ae24751560c5ac56874caff4bb39b1f2055bd72b8bb",
+      "family": "qwen3.5",
+      "upstreamModelId": "Qwen/Qwen3.5-4B",
+      "version": "3.5",
+      "quantization": "Q4_0",
+      "catalogRole": "Smart",
+      "capabilities": [
+        "text",
+        "reasoning"
+      ],
+      "license": "apache-2.0",
+      "experimental": true,
+      "validatedBackends": [
+        "cpu"
+      ],
+      "experimentalBackends": [
+        "opencl"
+      ]
     },
     {
       "id": "gemma3-4b-q4km",
-      "title": "Gemma 3 4B \u00b7 Smart",
+      "title": "Gemma 3 4B · Smart",
       "description": "Google Gemma 3 text-capable GGUF. Good general alternative with a compact Q4_K_M download.",
       "fileName": "gemma-3-4b-it-Q4_K_M.gguf",
       "url": "https://huggingface.co/ggml-org/gemma-3-4b-it-GGUF/resolve/main/gemma-3-4b-it-Q4_K_M.gguf",
@@ -191,8 +273,13 @@
       "version": "3.0",
       "quantization": "Q4_K_M",
       "catalogRole": "Smart",
-      "capabilities": ["text"],
-      "license": "gemma"
+      "capabilities": [
+        "text"
+      ],
+      "license": "gemma",
+      "validatedBackends": [
+        "cpu"
+      ]
     }
   ]
 }
