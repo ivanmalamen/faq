@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 3,
-  "catalogVersion": 7,
+  "schemaVersion": 4,
+  "catalogVersion": 8,
   "models": [
     {
       "id": "qwen3-0.6b-q4km",
@@ -18,14 +18,13 @@
       "version": "3.0",
       "quantization": "Q4_K_M",
       "catalogRole": "Ultra Fast",
-      "capabilities": [
-        "text",
-        "reasoning"
-      ],
+      "capabilities": ["text", "reasoning"],
       "license": "apache-2.0",
-      "validatedBackends": [
-        "cpu"
-      ]
+      "validatedBackends": ["cpu"],
+      "friendlyNameEn": "Instant",
+      "friendlyNameRu": "Мгновенная",
+      "friendlyDescriptionEn": "Fastest and smallest. Good for short questions, simple rewrites and quick offline chat.",
+      "friendlyDescriptionRu": "Самая быстрая и компактная. Для коротких вопросов, простых правок текста и быстрого офлайн-чата."
     },
     {
       "id": "qwen3-0.6b-q8",
@@ -43,14 +42,13 @@
       "version": "3.0",
       "quantization": "Q8_0",
       "catalogRole": "Fast",
-      "capabilities": [
-        "text",
-        "reasoning"
-      ],
+      "capabilities": ["text", "reasoning"],
       "license": "apache-2.0",
-      "validatedBackends": [
-        "cpu"
-      ]
+      "validatedBackends": ["cpu"],
+      "friendlyNameEn": "Fast",
+      "friendlyNameRu": "Быстрая",
+      "friendlyDescriptionEn": "Still very quick, with a little more accuracy for everyday short tasks.",
+      "friendlyDescriptionRu": "Всё ещё очень быстрая, но немного точнее для повседневных коротких задач."
     },
     {
       "id": "qwen3-1.7b-q8",
@@ -68,14 +66,13 @@
       "version": "3.0",
       "quantization": "Q8_0",
       "catalogRole": "Balanced",
-      "capabilities": [
-        "text",
-        "reasoning"
-      ],
+      "capabilities": ["text", "reasoning"],
       "license": "apache-2.0",
-      "validatedBackends": [
-        "cpu"
-      ]
+      "validatedBackends": ["cpu"],
+      "friendlyNameEn": "Balanced",
+      "friendlyNameRu": "Сбалансированная",
+      "friendlyDescriptionEn": "A good balance of speed and answer quality for everyday chat.",
+      "friendlyDescriptionRu": "Хороший баланс скорости и качества для обычного общения."
     },
     {
       "id": "qwen3-4b-q4-gpu",
@@ -93,16 +90,14 @@
       "version": "3.0",
       "quantization": "Q4_0",
       "catalogRole": "Smart",
-      "capabilities": [
-        "text",
-        "reasoning"
-      ],
+      "capabilities": ["text", "reasoning"],
       "license": "apache-2.0",
       "successorId": "qwen35-4b-q4km",
-      "validatedBackends": [
-        "cpu",
-        "opencl"
-      ]
+      "validatedBackends": ["cpu", "opencl"],
+      "friendlyNameEn": "Smart — accelerated",
+      "friendlyNameRu": "Умная — ускоренная",
+      "friendlyDescriptionEn": "Higher-quality answers with hardware acceleration on supported phones.",
+      "friendlyDescriptionRu": "Более качественные ответы с аппаратным ускорением на поддерживаемых телефонах."
     },
     {
       "id": "qwen3-4b-q4km",
@@ -120,15 +115,14 @@
       "version": "3.0",
       "quantization": "Q4_K_M",
       "catalogRole": "Smart",
-      "capabilities": [
-        "text",
-        "reasoning"
-      ],
+      "capabilities": ["text", "reasoning"],
       "license": "apache-2.0",
       "successorId": "qwen35-4b-q4km",
-      "validatedBackends": [
-        "cpu"
-      ]
+      "validatedBackends": ["cpu"],
+      "friendlyNameEn": "Smart — quality",
+      "friendlyNameRu": "Умная — качество",
+      "friendlyDescriptionEn": "Prioritizes answer quality over speed. Best when maximum speed is not important.",
+      "friendlyDescriptionRu": "Ставит качество ответа выше скорости. Подходит, когда максимальная скорость не важна."
     },
     {
       "id": "smollm3-3b-q4km",
@@ -146,14 +140,13 @@
       "version": "3.0",
       "quantization": "Q4_K_M",
       "catalogRole": "Fast",
-      "capabilities": [
-        "text",
-        "reasoning"
-      ],
+      "capabilities": ["text", "reasoning"],
       "license": "apache-2.0",
-      "validatedBackends": [
-        "cpu"
-      ]
+      "validatedBackends": ["cpu"],
+      "friendlyNameEn": "Compact thinker",
+      "friendlyNameRu": "Компактная логика",
+      "friendlyDescriptionEn": "Compact but capable. Good for reasoning and everyday tasks without the largest download.",
+      "friendlyDescriptionRu": "Компактная, но способная. Для рассуждений и обычных задач без самой большой загрузки."
     },
     {
       "id": "ministral3-3b-instruct-q4km",
@@ -171,13 +164,13 @@
       "version": "3.0-2512",
       "quantization": "Q4_K_M",
       "catalogRole": "Balanced",
-      "capabilities": [
-        "text"
-      ],
+      "capabilities": ["text"],
       "license": "apache-2.0",
-      "validatedBackends": [
-        "cpu"
-      ]
+      "validatedBackends": ["cpu"],
+      "friendlyNameEn": "Everyday",
+      "friendlyNameRu": "На каждый день",
+      "friendlyDescriptionEn": "A practical all-round model for instructions, writing and general chat.",
+      "friendlyDescriptionRu": "Универсальная модель для инструкций, текста и обычного общения."
     },
     {
       "id": "phi4-mini-q4km",
@@ -195,13 +188,13 @@
       "version": "4.0",
       "quantization": "Q4_K_M",
       "catalogRole": "Smart",
-      "capabilities": [
-        "text"
-      ],
+      "capabilities": ["text"],
       "license": "mit",
-      "validatedBackends": [
-        "cpu"
-      ]
+      "validatedBackends": ["cpu"],
+      "friendlyNameEn": "Logic",
+      "friendlyNameRu": "Логика",
+      "friendlyDescriptionEn": "Best suited to structured instructions, logic and code-related questions.",
+      "friendlyDescriptionRu": "Лучше подходит для чётких инструкций, логики и вопросов по коду."
     },
     {
       "id": "qwen35-4b-q4km",
@@ -219,14 +212,13 @@
       "version": "3.5",
       "quantization": "Q4_K_M",
       "catalogRole": "Smart",
-      "capabilities": [
-        "text",
-        "reasoning"
-      ],
+      "capabilities": ["text", "reasoning"],
       "license": "apache-2.0",
-      "validatedBackends": [
-        "cpu"
-      ]
+      "validatedBackends": ["cpu"],
+      "friendlyNameEn": "Smart — new generation",
+      "friendlyNameRu": "Умная — новое поколение",
+      "friendlyDescriptionEn": "A newer smart model for stronger general answers and reasoning, tuned for broad compatibility.",
+      "friendlyDescriptionRu": "Более новая умная модель для качественных ответов и рассуждений с упором на совместимость."
     },
     {
       "id": "qwen35-4b-q4-gpu-experimental",
@@ -244,18 +236,15 @@
       "version": "3.5",
       "quantization": "Q4_0",
       "catalogRole": "Smart",
-      "capabilities": [
-        "text",
-        "reasoning"
-      ],
+      "capabilities": ["text", "reasoning"],
       "license": "apache-2.0",
       "experimental": true,
-      "validatedBackends": [
-        "cpu"
-      ],
-      "experimentalBackends": [
-        "opencl"
-      ]
+      "validatedBackends": ["cpu"],
+      "experimentalBackends": ["opencl"],
+      "friendlyNameEn": "Smart — accelerated test",
+      "friendlyNameRu": "Умная — ускоренная тестовая",
+      "friendlyDescriptionEn": "Experimental accelerated version of the new smart model. Choose it if you want to test faster generation.",
+      "friendlyDescriptionRu": "Тестовая ускоренная версия новой умной модели. Выбирайте, если хотите попробовать более быструю генерацию."
     },
     {
       "id": "gemma3-4b-q4km",
@@ -273,13 +262,13 @@
       "version": "3.0",
       "quantization": "Q4_K_M",
       "catalogRole": "Smart",
-      "capabilities": [
-        "text"
-      ],
+      "capabilities": ["text"],
       "license": "gemma",
-      "validatedBackends": [
-        "cpu"
-      ]
+      "validatedBackends": ["cpu"],
+      "friendlyNameEn": "General",
+      "friendlyNameRu": "Универсальная",
+      "friendlyDescriptionEn": "Another strong general-purpose option for chat, writing and everyday questions.",
+      "friendlyDescriptionRu": "Ещё один сильный универсальный вариант для общения, текста и повседневных вопросов."
     }
   ]
 }
